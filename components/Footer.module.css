@@ -1,0 +1,123 @@
+/* Global Footer Styles */
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 2rem 1rem;
+    
+  }
+
+.container{
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+  /* Top Row Styles */
+  .footer-top-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Column Styles */
+  .footer-column {
+    flex: 1 1 300px;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-column p {
+    margin: 0.5rem 0;
+  }
+  
+  /* Subscription Form */
+  .footer-subscribe {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .footer-subscribe input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 0.5rem;
+  }
+  
+  .footer-subscribe button {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footer-subscribe button:hover {
+    background: #555;
+  }
+  
+  /* Bottom Row Styles */
+  .footer-bottom-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+  }
+  
+  .footer-list li {
+    cursor: pointer;
+  }
+  
+  .footer-list li:hover {
+    text-decoration: underline;
+  }
+  
+  /* Follow Us Section */
+  .footer-follow {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .footer-accepts {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .footer-accepts img {
+    width: 40px;
+    height: 24px;
+  }
+  
+  /* Divider */
+  .footer-divider {
+    border: 1px solid #444;
+    margin: 2rem 0;
+  }
+  
+  /* Copyright Text */
+  .footer-copyright {
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .footer-column {
+      flex: 1 1 100%;
+    }
+  }
+  

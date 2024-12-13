@@ -1,0 +1,51 @@
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Ensures text aligns vertically */
+    width: 50%;
+    margin: auto; /* Centers the text container on the page */
+    text-align: center;
+    padding:5% 0 5% 0; 
+}
+
+.title {
+    font-family: "Simplon Norm", sans-serif; /* Ensure this font is properly imported */
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-underline-position: from-font; /* Can be removed if not needed */
+    text-decoration-skip-ink: none; /* Can be removed if not needed */
+    margin: 0; /* Remove default margin */
+}
+
+.description {
+    font-family: "Simplon Norm", sans-serif; /* Ensure this font is properly imported */
+    font-size: 22px;
+    font-weight: 400;
+    width: 90%;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-underline-position: from-font; /* Can be removed if not needed */
+    text-decoration-skip-ink: none; /* Can be removed if not needed */
+    margin: 0; /* Remove default margin */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .description {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .text {
+        width: 80%; /* Expand the container width */
+    }
+}

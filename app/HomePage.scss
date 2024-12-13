@@ -1,0 +1,54 @@
+.group-136365 {
+    position: relative; /* Changed to relative to make absolute children work well */
+    width: 100%;
+    height: auto; /* Adjusts height based on content */
+    padding: 20px;
+    text-align: center; /* Ensures centered text alignment in the container */
+  }
+  
+  .discover-products {
+    font-family: 'Simplon Norm', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #252020;
+    margin-bottom: 20px; /* Adds spacing between elements */
+  }
+  
+  .description {
+    font-family: 'Simplon Norm', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    color: #252020;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .discover-products {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  
+    .description {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .discover-products {
+      font-size: 32px;
+      line-height: 42px;
+    }
+  
+    .description {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+  

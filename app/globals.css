@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+select:focus {
+  outline: none;
+}

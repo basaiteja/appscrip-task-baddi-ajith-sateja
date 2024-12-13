@@ -1,0 +1,16 @@
+.likeButton {
+    background: transparent;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .liked {
+    color: red;
+  }
+  
+  .unliked {
+    color: gray;
+  }
