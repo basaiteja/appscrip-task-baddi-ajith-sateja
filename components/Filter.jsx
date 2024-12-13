@@ -4,7 +4,7 @@ import styles from "./Filter.module.css";
 const FilterComponent = ({ filters, onFilterChange }) => {
   return (
     <div className={styles.filterContainer}>
-      {/* Customizable checkbox */}
+      
       <div className={styles.filterItem}>
         <input
           type="checkbox"

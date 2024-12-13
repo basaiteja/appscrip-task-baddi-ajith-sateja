@@ -2,37 +2,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Ensures text aligns vertically */
+    flex-direction: column; 
     width: 50%;
-    margin: auto; /* Centers the text container on the page */
+    margin: auto; 
     text-align: center;
     padding:5% 0 5% 0; 
 }
 
 .title {
-    font-family: "Simplon Norm", sans-serif; /* Ensure this font is properly imported */
+    font-family: "Simplon Norm", sans-serif; 
     font-size: 50px;
     font-weight: 400;
     line-height: 72px;
     letter-spacing: 1px;
     text-align: center;
     text-decoration: none;
-    text-underline-position: from-font; /* Can be removed if not needed */
-    text-decoration-skip-ink: none; /* Can be removed if not needed */
-    margin: 0; /* Remove default margin */
+    text-underline-position: from-font; 
+    text-decoration-skip-ink: none;
+    margin: 0; 
 }
 
 .description {
-    font-family: "Simplon Norm", sans-serif; /* Ensure this font is properly imported */
+    font-family: "Simplon Norm", sans-serif; 
     font-size: 22px;
     font-weight: 400;
     width: 90%;
     line-height: 40px;
     text-align: center;
     text-decoration: none;
-    text-underline-position: from-font; /* Can be removed if not needed */
-    text-decoration-skip-ink: none; /* Can be removed if not needed */
-    margin: 0; /* Remove default margin */
+    text-underline-position: from-font; 
+    text-decoration-skip-ink: none; 
+    margin: 0; 
 }
 
 /* Responsive adjustments */
@@ -46,6 +46,6 @@
         line-height: 30px;
     }
     .text {
-        width: 80%; /* Expand the container width */
+        width: 80%;
     }
 }
